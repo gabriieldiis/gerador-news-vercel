@@ -1,0 +1,4 @@
+# não sobe para a Vercel (só servem para rodar e testar no computador)
+tests
+server.js
+*.bat
