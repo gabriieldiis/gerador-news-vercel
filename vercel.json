@@ -3,6 +3,6 @@
     "api/**/*.js": { "maxDuration": 20 }
   },
   "headers": [
-    { "source": "/static/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+    { "source": "/js/vendor/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
   ]
 }

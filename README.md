@@ -24,8 +24,14 @@ Sem linhas em branco no briefing, a montagem segue o padrão 1 · 2 · 2 · 1 ·
 
 ```
 gerador-news/
-├── index.html              o gerador (página, estilos e lógica)
-├── static/Sortable.min.js  biblioteca de arrastar (1.15.2)
+├── index.html              o gerador (estrutura da página)
+├── css/
+│   └── style.css           estilos do gerador
+├── js/
+│   ├── app.js              lógica do gerador (briefing, montagem, prévia, download)
+│   ├── email-template.js   cabeçalho e rodapé do HTML do e-mail
+│   └── vendor/
+│       └── Sortable.min.js biblioteca de arrastar (1.15.2)
 ├── api/
 │   ├── _kalunga.js         consulta ao site da Kalunga (SKU e links), com cache
 │   ├── ping.js             GET /api/ping
